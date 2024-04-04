@@ -1,0 +1,149 @@
+<script src="./prog/tailwind.js"></script>
+<html class="text-sm">
+
+<div class="flex flex-row">
+    <div class="basis-1/2 text-center leading-loose">
+        <h1 class="font-bold text-lg">Francisco Burgers</h1>
+        <h2>(Frank)</h2>
+        <h3>San Diego, California</h3>
+    </div>
+
+    <div class="basis-1/2 leading-loose">
+        <span class="flex items-center"><img class="h-[15px]" src="./res/gmail.png" alt="">&nbsp;franciscoburgers@gmail.com</span>
+        <span class="flex items-center"><img class="h-[20px]" src="./res/github.jpg" alt="">&nbsp;frankburgs.github.io</span>
+        <span class="flex items-center"><img class="h-[15px]" src="./res/linkedin.png" alt="">&nbsp;linkedin.com/in/francisco-burgers</span>
+    </div>
+</div>
+
+<!-- End header -->
+
+<div class="flex items-center mt-5 mb-5">
+    <div class="flex-1 border-t-2 border-black-200"></div>
+    <span class="px-3 text-black-500 bg-white">Education</span>
+    <div class="flex-1 border-t-2 border-black-200"></div>
+</div>
+
+<!-- Education -->
+
+<div class="grid grid-cols-6 leading-6">
+
+    <div class="text-center flex flex-col justify-center">
+        August 2014
+    </div>
+    <div class="col-span-4 text-left pl-10 pr-10">
+        <u>University of California, San Diego</u><br>B.S., Biomedical Engineering
+    </div>
+    <div>
+        <img class="h-[30px]" src="./res/ucsd.svg" alt="">
+    </div>
+
+    <div class="text-center flex flex-col justify-center">
+        April 2023
+    </div>
+    <div class="col-span-4 text-left pl-10 pr-10">
+        <u>Learn Academy</u><br>640 Hour Web Development Bootcamp
+    </div>
+    <div>
+        <img class="h-[30px] ml-3" src="./res/learn.svg" alt="">
+    </div>
+
+    <div class="text-center flex flex-col justify-center">
+        December 2023
+    </div>
+    <div class="col-span-4 text-left pl-10 pr-10">
+        <u>UCSD Extension</u>, Safety Certificates
+        <br>General Industry, Maritime, Safety & Health
+    </div>
+    <div>
+        <img class="h-[30px] ml-3" src="./res/uc.png" alt="">
+    </div>
+
+</div>
+
+<!-- End education -->
+
+<div class="flex items-center mt-5 mb-5">
+    <div class="flex-1 border-t-2 border-black-200"></div>
+    <span class="px-3 text-black-500 bg-white">Experience</span>
+    <div class="flex-1 border-t-2 border-black-200"></div>
+</div>
+
+<!-- Start experience -->
+<div class="my-5">
+    <div class="grid grid-cols-10">
+        <img class="h-[30px]" src="./res/biophase.png">
+        <div class="text-left col-span-6"><u>Biophase Solutions</u><br>Sr. Assembly Technician</div>
+        <div class="col-span-2 text-right">Jan 2019 - Apr 2022</div>
+    </div>
+    <div class="my-3 leading-loose">
+        &#x2022; Carried out shipping/receiving operations for small manufacturing facilities
+        <br>&#x2022; Created assembly documentation and managed inventory (Netsuite, MS Excel)
+    </div>
+</div>
+
+<div class="my-5">
+    <div class="grid grid-cols-10">
+        <img class="h-[30px]" src="./res/tp.png">
+        <div class="text-left col-span-6"><u>Transportation Power</u><br>Battery Lab Supervisor</div>
+        <div class="col-span-2 text-right">Mar 2017 - May 2018</div>
+    </div>
+    <div class="my-3 leading-loose">
+        &#x2022; Guided workflow for teams of up to three assembly technicians, ensuring parts and documentation readiness,<br>
+        resulting in 50% reduction of expected time-to-complete
+        <br>&#x2022; Created & maintained manufacturing documentation for battery pack assembly including:<br>BOM's, MWI's, assembly trees, parts diagrams, & revision history
+    </div>
+</div>
+
+<div class="my-5">
+    <div class="grid grid-cols-10">
+        <img class="h-[30px]" src="./res/lji.png">
+        <div class="text-left col-span-6"><u>La Jolla Institute for Allergy & Immunology</u><br>Vivarium Technician</div>
+        <div class="col-span-2 text-right">Feb 2015 - Oct 2016</div>
+    </div>
+    <div class="my-3 leading-loose">
+        &#x2022; Maintained high standards of cleanliness in a BSL-2 facility
+        <br>&#x2022; Implemented paper logging of mouse incubator use for incident accountability
+    </div>
+</div>
+
+<div class="my-5">
+    <div class="grid grid-cols-10">
+        <img class="h-[30px]" src="./res/army.svg">
+        <div class="text-left col-span-6"><u>United States Army</u><br>Infantry Sergeant</div>
+        <div class="col-span-2 text-right">Aug 2004 - Jan 2009</div>
+    </div>
+    <div class="my-3 leading-loose">
+        &#x2022; Supervised teams of up to 8 personnel in high-hazard environments
+        <br>&#x2022; Ensured readiness through rigorous cross-training (medical, communications, equipment & fitness)
+        <br>&#x2022; Learned attention-to-detail, awarded Expert Infantry Badge, Good Conduct Medal
+    </div>
+</div>
+
+<!-- End experience -->
+
+<div class="flex items-center mt-5 mb-2">
+    <div class="flex-1 border-t-2 border-black-200"></div>
+    <span class="px-3 text-black-500 bg-white">Volunteer Work</span>
+    <div class="flex-1 border-t-2 border-black-200"></div>
+    <span class="px-3 text-black-500 bg-white">Interests</span>
+    <div class="flex-1 border-t-2 border-black-200"></div>
+</div>
+
+<!-- Begin volunteer -->
+
+<div class="flex flex-row divide-x-2">
+
+    <div class="basis-1/2">
+        <span class="flex items-center mb-5"><img src="./res/va.jpg" class="h-[15px]">&nbsp;<u> Veteran's Affairs Hospital</u>&nbsp;Jan 2012 - Feb 2015</span>
+        <span class="flex items-center"><img src="./res/sd.jpg" class="h-[15px]">&nbsp;<u> Linda Vista Public Library</u>&nbsp; Jan 2020 - Current</span>
+    </div>
+
+    <div class="basis-1/2">
+        <div class="text-left ml-10">
+            🦺&nbsp;Safety
+            <br>📜&nbsp;Documentation
+            <br>🧹&nbsp;Organization & cleanliness
+        </div>
+    </div>
+</div>
+</html>
