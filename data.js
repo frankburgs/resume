@@ -1,32 +1,32 @@
 const eduData = [
     {
-        institution : "University of California, San Diego",
-        award : "B.S., Bioengineering",
-        icon : "../resume/ucsd.svg",
+        school : "University of California, San Diego",
+        info : "B.S., Bioengineering",
+        icon : "./ucsd.svg",
         date : "August 2014"
     },
     {
-        institution : "Learn Academy",
-        award : "640-hour Full-stack Web Development Bootcamp",
-        icon : "../resume/learn.svg",
+        school : "Learn Academy Software Bootcamp",
+        info : "640-Hour Course<br/>Website Development",
+        icon : "./learn.svg",
         date : "March 2023"
     },
     {
-        institution : "UCSD Extension, Safety Certificates",
-        award : "General Industry, Maritime, Safety & Health",
-        icon : "../resume/uc.png",
+        school : "UCSD Extension Safety Certificates",
+        info : "General Industry, Maritime,<br/>Safety & Health",
+        icon : "./ucExtension.png",
         date : "December 2023"
     },
     {
-        institution : "San Diego College of Continuing Education",
-        award : "Shielded Metal Arc Welding 1",
-        icon : "../resume/sdcce.svg",
+        school : "San Diego College of Continuing Education",
+        info : "Shielded Metal Arc Welding 1",
+        icon : "./sdcce.svg",
         date : "May 2024"
     },
     {
-        institution : "SkillsBuild, IBM Learning Portal Certificates",
-        award : "Introductory Information Technology & Cybersecurity",
-        icon : "../resume/skillsbuild.svg",
+        school : "SkillsBuild, IBM Learning Certificates",
+        info : "Information Technology<br/>Cybersecurity",
+        icon : "./skillsbuild.svg",
         date : "In-progress"
     },
 ]
