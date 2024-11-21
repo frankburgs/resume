@@ -1,9 +1,10 @@
 # Setup from clone
-- Run below commands and you should be able to save a nice pdf of the resume given you also have live server installed.
+- Run below commands and you should be able to save a nice pdf of the resume given you also have live server installed (also Node & Git)
 
-``` shell
+``` ruby
 $ git clone thisgitreponame
 $ npm i # Given package.json is present with tailwindcss as devdependency.
+$ npm run dev # output.css is in .gitignore
 ```
 
 # Setup from scratch
@@ -68,7 +69,7 @@ npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
     }
 }
 ```
-- Add into theme/extend in tailwind.configjs
+- Add to module.exports/theme/extend in tailwind.config.js
 ``` js
 fontFamily: {
   'sans':['mulish', 'sans-serif']
