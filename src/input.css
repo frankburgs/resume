@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* trying custom fonts */
+
+@layer base {
+    @font-face {
+      font-family: mulish;
+      font-weight: 400;
+      src: url(./mulish.ttf) format("ttf");
+    }
+}

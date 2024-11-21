@@ -1,6 +1,16 @@
-<script src="../res/tailwind"></script>
+<!DOCTYPE html>
+<html lang="en" class="text-sm">
 
-<html class="text-sm">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<!-- 
+Print style at bottom of file 
+-->
 
 <div class="flex flex-row">
     <div class="basis-1/2 text-center leading-loose">
@@ -120,8 +130,8 @@
       </div>
 
       <div class="py-2">
-        <div>Information Technology & Cybersecurity</div>
-        <div>In progress</div>
+        <div>Computer Technology</div>
+        <div>Current</div>
       </div>
 
     </div><!-- End 2nd ibm row -->
@@ -137,10 +147,10 @@
 </div><!-- Start experience -->
 
  
-<div class="my-5">
+<div class="flex-col">
     <div class="grid grid-cols-10">
         <img class="h-[30px]" src="./icon/biophase.png">
-        <div class="text-left col-span-6"><u>Biophase Solutions</u><br>Sr. Assembly Technician</div>
+        <div class="text-left col-span-6"><u>Biophase Solutions</u><br>Manufacturing Technician</div>
         <div class="col-span-2 text-right">Jan 2019 - Apr 2022</div>
     </div>
     <ul class="list-disc list-inside space-y-1.5 my-2">
@@ -191,7 +201,7 @@
 
 <!-- End experience -->
 
-<div class="flex items-center mt-5 mb-2">
+<div class="flex items-center mt-5 mb-4 pt-2">
     <div class="flex-1 border-t-2 border-black-200"></div>
     <span class="px-3 text-black-500 bg-white">Volunteer Work</span>
     <div class="flex-1 border-t-2 border-black-200"></div>
@@ -216,4 +226,17 @@
         </div>
     </div>
 </div>
+<div class="pt-14 text-center">Se habla espa&#xf1;ol</div>
 </html>
+
+
+<style>
+@media print {
+     @page {
+        margin-left: 0.25in;
+        margin-right: 0.25in;
+        margin-top: 0.25in;
+        margin-bottom: 0.25in;
+      }
+}
+</style>
