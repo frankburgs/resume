@@ -1,7 +1,15 @@
-# Setup
-- 📂 The folders node_modules, package, and package_lock are ommitted from the Github backup.
+# Setup from clone
+- Run below commands and you should be able to save a nice pdf of the resume given you also have live server installed.
 
 ``` shell
+$ git clone thisgitreponame
+$ npm i # Given package.json is present with tailwindcss as devdependency.
+```
+
+# Setup from scratch
+- Given Node installed, run below commands.
+
+``` ruby
 $ npm i tailwindcss
 $ npx tailwindcss init # Creates tailwind.config.js
 ```
